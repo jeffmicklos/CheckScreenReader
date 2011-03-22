@@ -1,0 +1,4 @@
+Check if the client is running a screen reader.
+Currently, we are just alerting a boolean value based on if they are or not. You could set a cookie or whatever you need to do.
+
+Note, this doesn't work with Apple's built-in screen reader but it will detect all other major readers, like Jaws.

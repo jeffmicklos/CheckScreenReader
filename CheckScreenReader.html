@@ -1,0 +1,21 @@
+﻿<!doctype html>
+<html lang="en">
+	<head>
+		<title>CheckScreenReader</title>
+		<meta charset="utf-8">
+		<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+	</head>
+	<body>
+		
+		<object id="check-screen-reader" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1" height="1">
+			<param name="movie" value="CheckScreenReader.swf" />
+    		<!--[if !IE]>-->
+			<object type="application/x-shockwave-flash" data="CheckScreenReader.swf" width="1" height="1"></object>
+			<!--<![endif]-->
+		</object>
+
+		<script type="text/javascript">
+			swfobject.registerObject('check-screen-reader', '9.0.0', 'CheckScreenReader.swf');
+		</script>
+	</body>
+</html>
